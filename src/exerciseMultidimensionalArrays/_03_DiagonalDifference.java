@@ -52,7 +52,6 @@ public class _03_DiagonalDifference {
     }
 
     private static void fillMatrix(int[][] matrix, Scanner scanner) {
-
         for (int row = 0; row < matrix.length; row++) {
             for (int col = 0; col < matrix.length; col++) {
                 matrix[row][col] = scanner.nextInt();
