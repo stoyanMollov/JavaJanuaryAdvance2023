@@ -13,6 +13,7 @@ public class _02_Snake {
         for (int i = 0; i < field.length; i++) {
             field[i] = scanner.nextLine().toCharArray();
         }
+        System.out.println();
         
     }
 }
