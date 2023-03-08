@@ -23,11 +23,12 @@ public class _02_Snake {
                 snakeCol = maybeSnakeCol;
             }
 
-//            for (int j = 0; j < field.length; j++) {
-//                if (field[i][j] == 'S') {
-//                    snakeRow = i;
-//                    snakeCol = j;
-//                }
+            for (int j = 0; j < field.length; j++) {
+                if (field[i][j] == 'S') {
+                    snakeRow = i;
+                    snakeCol = j;
+                }
+            }
 
             //определяме позицията B
             int maybeLairCol = row.indexOf('B');
